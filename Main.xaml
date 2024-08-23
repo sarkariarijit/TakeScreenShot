@@ -1,0 +1,255 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="764,3732" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence - Taking Screen Shot" sap:VirtualizedContainerService.HintSize="774,3667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="https://www.windy.com/?22.513,88.374,5" Name="WeatherSiteURL" />
+      <Variable x:TypeArguments="ui:UiElement" Name="WebElement" />
+      <Variable x:TypeArguments="x:String" Default="ProjectFile\WeatherNow - .png" Name="ImagePath" />
+      <Variable x:TypeArguments="x:String" Default="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk" Name="ApplicationFIlePath" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="712,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Opening Weather Website&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: Open Windy Website" sap:VirtualizedContainerService.HintSize="712,3122" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="4e949c93-0e9b-4cf4-99c7-907f9d6e8108" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="678,2873" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="616,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Verifying Logo&quot;]" />
+            <ui:WaitUiElementAppear WaitActive="{x:Null}" DisplayName="Finding the Logo" FoundElement="[WebElement]" sap:VirtualizedContainerService.HintSize="616,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1" WaitVisible="True">
+              <ui:WaitUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="43ec3297-b8a6-44f1-9b82-86b224614aee" InformativeScreenshot="98e5f56d7fa346dda4564d83137e80b2" Selector="&lt;html app='msedge.exe' title='Windy: Wind map &amp;amp; weather forecast' /&gt;&lt;webctrl id='logo' tag='A' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </ui:WaitUiElementAppear.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:WaitUiElementAppear>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,2469" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If Condition="[WebElement.IsVisible=True]" sap:VirtualizedContainerService.HintSize="554,2354" sap2010:WorkflowViewState.IdRef="If_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,808" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Verification Successful - Taking Screen Shot&quot;]" />
+                    <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="ProjectFile\WeatherNow - .png" FileNameMode="None" sap:VirtualizedContainerService.HintSize="354,265" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="4e949c93-0e9b-4cf4-99c7-907f9d6e8108" Version="V3">
+                      <uix:NTakeScreenshot.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.windy.com/?22.513,88.374,5" DesignTimeRectangle="8, 154, 402, 192" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-weather-bg' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-weather-bg' tag='DIV' type='' class='' aaname='' /&gt;" Guid="414097bd-1417-4ff3-9497-20f8e4856ca0" InformativeScreenshot="6e7d29deba735a54956fc168b4423816.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Windy: Wind map &amp;amp; weather forecast' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="333f538f-9237-4e75-9e76-467b41a61a93" CvTextArea="758, 168, 140, 30" CvTextArgument="Windycom 17°" CvType="Text" DesignTimeRectangle="757, 167, 140, 31" ElementType="Text" Guid="546d77f1-acc8-4107-8706-c17f965a2a2c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTakeScreenshot.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTakeScreenshot>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Image Saved. Closing Browser&quot;]" />
+                    <uix:NNavigateBrowser Action="CloseTab" DisplayName="Closing Webpage" sap:VirtualizedContainerService.HintSize="354,105" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_4" Version="V3" />
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="520,1383" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="458,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Verification Failed  - Reloading the page&quot;]" />
+                    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="458,400" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:01:00">
+                      <ui:RetryScope.ActivityBody>
+                        <ActivityAction>
+                          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="416,193" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NNavigateBrowser Action="Refresh" DisplayName="Reload Page" sap:VirtualizedContainerService.HintSize="354,105" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" Version="V3">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NNavigateBrowser>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:RetryScope.ActivityBody>
+                      <ui:RetryScope.Condition>
+                        <ActivityFunc x:TypeArguments="x:Boolean" />
+                      </ui:RetryScope.Condition>
+                    </ui:RetryScope>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="458,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Verification Successful - Taking Screen Shot&quot;]" />
+                    <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="ProjectFile\WeatherNow - .png" FileNameMode="None" sap:VirtualizedContainerService.HintSize="458,265" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_3" ScopeIdentifier="4e949c93-0e9b-4cf4-99c7-907f9d6e8108" Version="V3">
+                      <uix:NTakeScreenshot.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.windy.com/?22.513,88.374,5" DesignTimeRectangle="8, 154, 402, 192" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-weather-bg' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-weather-bg' tag='DIV' type='' class='' aaname='' /&gt;" Guid="414097bd-1417-4ff3-9497-20f8e4856ca0" InformativeScreenshot="6e7d29deba735a54956fc168b4423816.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Windy: Wind map &amp;amp; weather forecast' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="333f538f-9237-4e75-9e76-467b41a61a93" CvTextArea="758, 168, 140, 30" CvTextArgument="Windycom 17°" CvType="Text" DesignTimeRectangle="757, 167, 140, 31" ElementType="Text" Guid="546d77f1-acc8-4107-8706-c17f965a2a2c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTakeScreenshot.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTakeScreenshot>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="458,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Image Saved. Closing Browser&quot;]" />
+                    <uix:NNavigateBrowser Action="CloseTab" DisplayName="Closing Webpage" sap:VirtualizedContainerService.HintSize="458,105" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_3" Version="V3" />
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Edge" IconBase64="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" InformativeScreenshot="0ced24a8232280be5caaff85e64b721e.jpg" Selector="&lt;html app='msedge.exe' title='Windy: Wind map &amp;amp; weather forecast' /&gt;" Title="Windy: Wind map &amp; weather forecast" Url="[WeatherSiteURL]" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="712,173" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Opening the Screen Shot&quot;]" />
+    <ui:StartProcess WorkingDirectory="{x:Null}" Arguments="[ApplicationFIlePath]" DisplayName="Open Photo" FileName="[ImagePath]" sap:VirtualizedContainerService.HintSize="712,111" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
+  </Sequence>
+</Activity>
